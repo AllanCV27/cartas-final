@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: green;
+    color: black;
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container p{
+    margin: 1em;
+    
+}
+.top-div{
+    margin: 1em;
+    flex-direction: row;
+    margin: 1em;
+}
+.cardStyle{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 3em;
+    height: 5em;
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 0.2em 0.2em 1em black;
+
+}
+.suits{
+    font-size: 10px;
+    
+}
+#number{
+margin-top: 25px;
+}
+.numero{
+    
+    font-size: 9px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#suit-top{
+    margin-bottom: 10px;
+    margin-right: -2px;
+}
+#suit-base{
+    margin-top: 60px;
+    margin-left: -2px;
+    transform: rotate(180deg);
+    
+
+}
+.Numrow{
+    display: flex;
+    align-items: center;
+}
