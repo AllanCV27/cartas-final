@@ -57,3 +57,11 @@ margin-top: 25px;
     display: flex;
     align-items: center;
 }
+.card_container-sort-row{
+    display: flex;
+    flex-direction: row;
+}
+.card_container_sort{
+    display: flex;
+    flex-direction: column;
+}
